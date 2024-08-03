@@ -1,0 +1,20 @@
+name: louvores_app
+description: A new Flutter application
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: ">=3.4.0 <4.0.0" # Ajuste a versão conforme necessário
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2  # Versão ajustada para uma disponível
+  http: ^1.2.2  # Adicione esta linha para incluir o pacote http
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
